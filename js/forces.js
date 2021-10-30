@@ -22304,7 +22304,7 @@ var forces = [
                     {
                         "name":"Heavy Mortar Battery",
                         "cost":58,
-                        "br":1,
+                        "br":2,
                         "w":3,
                         "options":[
                             {
