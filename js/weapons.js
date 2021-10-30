@@ -1,0 +1,1770 @@
+var weapons = {
+    0:{
+        'name':'Placeholder',
+        'stats':[
+        {
+            'type':'HE [VL]',
+            'effect':'',
+            'strength':['','','','','','']
+        }
+        ]
+    },
+    1:{
+        'name':'50mm mortar',
+        'stats':[
+        {
+            'type':'HE [VL]',
+            'effect':'',
+            'strength':['','','','','','']
+        }
+        ]
+    },
+    2:{
+        'name':'80mm mortar',
+        'stats':[
+        {
+            'type':'HE [L]',
+            'effect':'',
+            'strength':['','','','','','']
+        }
+        ]
+    },
+    3:{
+        'name':'120mm mortar',
+        'stats':[
+        {
+            'type':'HE [L]',
+            'effect':'',
+            'strength':['','','','','','']
+        }
+        ]
+    },
+    4:{
+        'name':'20mmL55',
+        'stats':[
+        {
+            'type':'HE',
+            'effect':'-',
+            'strength':['','','','','','']
+        },
+        {
+            'type':'AP',
+            'effect':'-',
+            'strength':['','','','','']
+        }
+        ]
+    },
+    5:{
+        'name':'37mmL98',
+        'stats':[
+        {
+            'type':'HE',
+            'effect':'-',
+            'strength':['','','','','','']
+        },
+        {
+            'type':'AP',
+            'effect':'-',
+            'strength':['','','','','']
+        }
+        ]
+    },
+    6:{
+        'name':'28mmPzB41',
+        'stats':[
+        {
+            'type':'AP',
+            'effect':'-',
+            'strength':['','','','','']
+        }
+        ]
+    },
+    7:{
+        'name':'37mmL43 (PaK36)',
+        'stats':[
+        {
+            'type':'HE [VL]',
+            'effect':'',
+            'strength':['','','','','']
+        },
+        {
+            'type':'AP',
+            'effect':'-',
+            'strength':['','','','','']
+        }
+        ]
+    },
+    8:{
+        'name':'50mmL42',
+        'stats':[
+        {
+            'type':'HE [VL]',
+            'effect':'',
+            'strength':['','','','','']
+        },
+        {
+            'type':'AP',
+            'effect':'-',
+            'strength':['','','','','']
+        }
+        ]
+    },
+    9:{
+        'name':'50mmL60 (PaK38)',
+        'stats':[
+        {
+            'type':'HE [VL]',
+            'effect':'',
+            'strength':['','','','','']
+        },
+        {
+            'type':'AP',
+            'effect':'-',
+            'strength':['','','','','']
+        }
+        ]
+    },
+    10:{
+        'name':'75mmL11 (IG18)',
+        'stats':[
+        {
+            'type':'HE [L]',
+            'effect':'',
+            'strength':['','','','','']
+        }
+        ]
+    },
+    11:{
+        'name':'75mmL24',
+        'stats':[
+        {
+            'type':'HE [L]',
+            'effect':'',
+            'strength':['','','','','']
+        },
+        {
+            'type':'AP',
+            'effect':'-',
+            'strength':['','','','','']
+        }
+        ]
+    },
+    12:{
+        'name':'75mmL36',
+        'stats':[
+        {
+            'type':'HE [L]',
+            'effect':'',
+            'strength':['','','','','','']
+        },
+        {
+            'type':'AP',
+            'effect':'-',
+            'strength':['','','','','']
+        }
+        ]
+    },
+    13:{
+        'name':'75mmL43',
+        'stats':[
+        {
+            'type':'HE [L]',
+            'effect':'',
+            'strength':['','','','','','']
+        },
+        {
+            'type':'AP',
+            'effect':'-',
+            'strength':['','','','','','']
+        }
+        ]
+    },
+    14:{
+        'name':'75mmL46 (PaK40)',
+        'stats':[
+        {
+            'type':'HE [L]',
+            'effect':'',
+            'strength':['','','','','','']
+        },
+        {
+            'type':'AP',
+            'effect':'-',
+            'strength':['','','','','','']
+        }
+        ]
+    },
+    15:{
+        'name':'75mmL48',
+        'stats':[
+        {
+            'type':'HE [L]',
+            'effect':'',
+            'strength':['','','','','','']
+        },
+        {
+            'type':'AP',
+            'effect':'-',
+            'strength':['','','','','','']
+        }
+        ]
+    },
+    16:{
+        'name':'75mmL70',
+        'stats':[
+        {
+            'type':'HE [L]',
+            'effect':'',
+            'strength':['','','','','','']
+        },
+        {
+            'type':'AP',
+            'effect':'-',
+            'strength':['','','','','','']
+        }
+        ]
+    },
+    17:{
+        'name':'76.2mmL42',
+        'stats':[
+        {
+            'type':'HE [L]',
+            'effect':'',
+            'strength':['','','','','']
+        },
+        {
+            'type':'AP',
+            'effect':'-',
+            'strength':['','','','','']
+        }
+        ]
+    },
+    18:{
+    },
+    19:{
+        'name':'88mmL56 (FlaK36)',
+        'stats':[
+        {
+            'type':'HE [M]',
+            'effect':'',
+            'strength':['','','','','','']
+        },
+        {
+            'type':'AP',
+            'effect':'-',
+            'strength':['','','','','','']
+        }
+        ]
+    },
+    20:{
+        'name':'88mmL71 (PaK43)',
+        'stats':[
+        {
+            'type':'HE [M]',
+            'effect':'',
+            'strength':['','','','','','']
+        },
+        {
+            'type':'AP',
+            'effect':'-',
+            'strength':['','','','','','']
+        }
+        ]
+    },
+    21:{
+        'name':'100mmL52 (K18)',
+        'stats':[
+        {
+            'type':'HE [M]',
+            'effect':'',
+            'strength':['','','','','','']
+        },
+        {
+            'type':'AP',
+            'effect':'-',
+            'strength':['','','','','','']
+        }
+        ]
+    },
+    22:{
+        'name':'105mmL28',
+        'stats':[
+        {
+            'type':'HE [M]',
+            'effect':'',
+            'strength':['','','','','']
+        }
+        ]
+    },
+    23:{
+        'name':'105mmL42',
+        'stats':[
+        {
+            'type':'HE [M]',
+            'effect':'',
+            'strength':['','','','','']
+        }
+        ]
+    },
+    24:{
+        'name':'122mmL23',
+        'stats':[
+        {
+            'type':'HE [M]',
+            'effect':'',
+            'strength':['','','','','']
+        }
+        ]
+    },
+    25:{
+        'name':'150mmL12 (sIG33)',
+        'stats':[
+        {
+            'type':'HE [M]',
+            'effect':'',
+            'strength':['','','','','']
+        }
+        ]
+    },
+    26:{
+        'name':'150mmL30',
+        'stats':[
+        {
+            'type':'HE [M]',
+            'effect':'',
+            'strength':['','','','','']
+        }
+        ]
+    },
+    27:{
+        'name':'150mm Nebelwerfer',
+        'stats':[
+        {
+            'type':'HE [M]',
+            'effect':'',
+            'strength':['','','','','','']
+        }
+        ]
+    },
+    28:{
+        'name':'170mmL50',
+        'stats':[
+        {
+            'type':'HE [H]',
+            'effect':'',
+            'strength':['','','','','','']
+        }
+        ]
+    },
+    29:{
+        'name':'210mmL31',
+        'stats':[
+        {
+            'type':'HE [H]',
+            'effect':'',
+            'strength':['','','','','','']
+        }
+        ]
+    },
+    30:{
+        'name':'210mm Nebelwerfer',
+        'stats':[
+        {
+            'type':'HE [H]',
+            'effect':'',
+            'strength':['','','','','','']
+        }
+        ]
+    },
+    31:{
+        'name':'280mm Nebelwerfer',
+        'stats':[
+        {
+            'type':'HE [H]',
+            'effect':'',
+            'strength':['','','','','','']
+        }
+        ]
+    },
+    32:{
+        'name':'Flamethrower',
+        'stats':[
+        {
+            'type':'Flame',
+            'strength':['']
+        }
+        ]
+    },
+    34:{
+        'name':'82mm mortar',
+        'stats':[
+        {
+            'type':'HE [L]',
+            'effect':'',
+            'strength':['','','','','','']
+        }
+        ]
+    },
+    35:{
+        'name':'20mm',
+        'stats':[
+        {
+            'type':'HE',
+            'effect':'-',
+            'strength':['','','','','','']
+        },
+        {
+            'type':'AP',
+            'effect':'-',
+            'strength':['','','','','']
+        }
+        ]
+    },
+    36:{
+        'name':'37mmL60',
+        'stats':[
+        {
+            'type':'HE',
+            'effect':'-',
+            'strength':['','','','','','']
+        },
+        {
+            'type':'AP',
+            'effect':'-',
+            'strength':['','','','','']
+        }
+        ]
+    },
+    37:{
+        'name':'37mmL45',
+        'stats':[
+        {
+            'type':'HE [VL]',
+            'effect':'',
+            'strength':['','','','','']
+        },
+        {
+            'type':'AP',
+            'effect':'-',
+            'strength':['','','','','']
+        }
+        ]
+    },
+    38:{
+        'name':'45mmL46',
+        'stats':[
+        {
+            'type':'HE [VL]',
+            'effect':'',
+            'strength':['','','','','']
+        },
+        {
+            'type':'AP',
+            'effect':'-',
+            'strength':['','','','','']
+        }
+        ]
+    },
+    39:{
+        'name':'45mmL66',
+        'stats':[
+        {
+            'type':'HE [VL]',
+            'effect':'',
+            'strength':['','','','','']
+        },
+        {
+            'type':'AP',
+            'effect':'-',
+            'strength':['','','','','']
+        }
+        ]
+    },
+    40:{
+        'name':'57mmL73 (Zis2)',
+        'stats':[
+        {
+            'type':'HE [VL]',
+            'effect':'',
+            'strength':['','','','','']
+        },
+        {
+            'type':'AP',
+            'effect':'-',
+            'strength':['','','','','']
+        }
+        ]
+    },
+    41:{
+        'name':'76.2mmL16',
+        'stats':[
+        {
+            'type':'HE [L]',
+            'effect':'',
+            'strength':['','','','','']
+        }
+        ]
+    },
+    42:{
+        'name':'76.2mmL26',
+        'stats':[
+        {
+            'type':'HE [L]',
+            'effect':'',
+            'strength':['','','','','']
+        },
+        {
+            'type':'AP',
+            'effect':'-',
+            'strength':['','','','','']
+        }
+        ]
+    },
+    43:{
+        'name':'76.2mmL30',
+        'stats':[
+        {
+            'type':'HE [L]',
+            'effect':'',
+            'strength':['','','','','']
+        },
+        {
+            'type':'AP',
+            'effect':'-',
+            'strength':['','','','','']
+        }
+        ]
+    },
+    44:{
+        'name':'76.2mmL42',
+        'stats':[
+        {
+            'type':'HE [L]',
+            'effect':'',
+            'strength':['','','','','']
+        },
+        {
+            'type':'AP',
+            'effect':'-',
+            'strength':['','','','','']
+        }
+        ]
+    },
+    45:{
+        'name':'76.2mmL54',
+        'stats':[
+        {
+            'type':'HE [L]',
+            'effect':'',
+            'strength':['','','','','']
+        },
+        {
+            'type':'AP',
+            'effect':'-',
+            'strength':['','','','','']
+        }
+        ]
+    },
+    46:{
+        'name':'85mmL54',
+        'stats':[
+        {
+            'type':'HE [M]',
+            'effect':'',
+            'strength':['','','','','']
+        },
+        {
+            'type':'AP',
+            'effect':'-',
+            'strength':['','','','','']
+        }
+        ]
+    },
+    47:{
+        'name':'122mmL23',
+        'stats':[
+        {
+            'type':'HE [M]',
+            'effect':'',
+            'strength':['','','','','']
+        },
+        {
+            'type':'AP',
+            'effect':'-',
+            'strength':['','','','','']
+        }
+        ]
+    },
+    48:{
+        'name':'122mmL46',
+        'stats':[
+        {
+            'type':'HE [M]',
+            'effect':'',
+            'strength':['','','','','']
+        },
+        {
+            'type':'AP',
+            'effect':'-',
+            'strength':['','','','','']
+        }
+        ]
+    },
+    49:{
+        'name':'152mmL24',
+        'stats':[
+        {
+            'type':'HE [M]',
+            'effect':'',
+            'strength':['','','','','']
+        }
+        ]
+    },
+    50:{
+        'name':'152mmL29',
+        'stats':[
+        {
+            'type':'HE [M]',
+            'effect':'',
+            'strength':['','','','','']
+        },
+        {
+            'type':'AP',
+            'effect':'-',
+            'strength':['','','','','']
+        }
+        ]
+    },
+    51:{
+        'name':'132mm Rocket',
+        'stats':[
+        {
+            'type':'HE [M]',
+            'effect':'',
+            'strength':['','','','','']
+        }
+        ]
+    },
+    52:{
+        'name':'203mmL49',
+        'stats':[
+        {
+            'type':'HE [H]',
+            'effect':'',
+            'strength':['','','','','','']
+        }
+        ]
+    },
+    53:{
+        'name':'PTRD AT Rifle',
+        'stats':[
+        {
+            'type':'AP',
+            'effect':'-',
+            'strength':[2,1]
+        }
+        ]
+    },
+    54:{
+        'name':'82mm Rocket',
+        'stats':[
+        {
+            'type':'HE',
+            'effect':'',
+            'strength':['','','','','']
+        }
+        ]
+    },
+    55:{
+        'name':'PTAB Bomb',
+        'stats':[
+        {
+            'type':'HE',
+            'effect':'',
+            'strength':['','','','','']
+        }
+        ]
+    },
+    56:{
+        'name':'37mmL53',
+        'stats':[
+        {
+            'type':'HE',
+            'effect':'',
+            'strength':['','','','','']
+        },
+        {
+            'type':'AP',
+            'effect':'-',
+            'strength':['','','','','']
+        }
+        ]
+    },
+    57:{
+        'name':'75mmL30',
+        'stats':[
+        {
+            'type':'HE',
+            'effect':'',
+            'strength':['','','','','']
+        },
+        {
+            'type':'AP',
+            'effect':'-',
+            'strength':['','','','','']
+        }
+        ]
+    },
+    58:{
+        'name':'2 pdr',
+        'stats':[
+        {
+            'type':'AP',
+            'effect':'-',
+            'strength':['','','','','']
+        }
+        ]
+    },
+    59:{
+        'name':'6 pdr (57mmL46)',
+        'stats':[
+        {
+            'type':'HE',
+            'effect':'',
+            'strength':['','','','','']
+        },
+        {
+            'type':'AP',
+            'effect':'-',
+            'strength':['','','','','']
+        }
+        ]
+    },
+    60:{
+        'name':'2\" mortar',
+        'stats':[
+        {
+            'type':'HE [VL]',
+            'effect':'',
+            'strength':['','','','','','']
+        }
+        ]
+    },
+    61:{
+        'name':'3\" mortar',
+        'stats':[
+        {
+            'type':'HE [L]',
+            'effect':'',
+            'strength':['','','','','','']
+        }
+        ]
+    },
+    62:{
+        'name':'4.2\" mortar',
+        'stats':[
+        {
+            'type':'HE [L]',
+            'effect':'',
+            'strength':['','','','','','']
+        }
+        ]
+    },
+    63:{
+        'name':'40mmL60 Bofors',
+        'stats':[
+        {
+            'type':'HE',
+            'effect':'',
+            'strength':['','','','','','']
+        },
+        {
+            'type':'AP',
+            'effect':'-',
+            'strength':['','','','','']
+        }
+        ]
+    },
+    64:{
+        'name':'37mmL53',
+        'stats':[
+        {
+            'type':'HE [VL]',
+            'effect':'',
+            'strength':['','','','','']
+        },
+        {
+            'type':'AP',
+            'effect':'-',
+            'strength':['','','','','']
+        }
+        ]
+    },
+    65:{
+        'name':'75mmL16',
+        'stats':[
+        {
+            'type':'HE [L]',
+            'effect':'',
+            'strength':['','','','','']
+        }
+        ]
+    },
+    66:{
+        'name':'75mmL30',
+        'stats':[
+        {
+            'type':'HE [L]',
+            'effect':'',
+            'strength':['','','','','']
+        },
+        {
+            'type':'AP',
+            'effect':'-',
+            'strength':['','','','','']
+        }
+        ]
+    },
+    67:{
+        'name':'3\" naval gun',
+        'stats':[
+        {
+            'type':'HE [L]',
+            'effect':'',
+            'strength':['','','','','']
+        }
+        ]
+    },
+    68:{
+        'name':'75mmL40',
+        'stats':[
+        {
+            'type':'HE [L]',
+            'effect':'',
+            'strength':['','','','','']
+        },
+        {
+            'type':'AP',
+            'effect':'-',
+            'strength':['','','','','']
+        }
+        ]
+    },
+    69:{
+        'name':'76mmL53 (3")',
+        'stats':[
+        {
+            'type':'HE [L]',
+            'effect':'',
+            'strength':['','','','','']
+        },
+        {
+            'type':'AP',
+            'effect':'-',
+            'strength':['','','','','']
+        }
+        ]
+    },
+    70:{
+        'name':'17 pdr',
+        'stats':[
+        {
+            'type':'AP',
+            'effect':'-',
+            'strength':['','','','','','']
+        }
+        ]
+    },
+    71:{
+        'name':'2 pdr (Littlejohn)',
+        'stats':[
+        {
+            'type':'AP',
+            'effect':'-',
+            'strength':['','','','','']
+        }
+        ]
+    },
+    72:{
+        'name':'95mmL20',
+        'stats':[
+        {
+            'type':'HE [M]',
+            'effect':'',
+            'strength':['','','','']
+        }
+        ]
+    },
+    73:{
+        'name':'25pdr',
+        'stats':[
+        {
+            'type':'HE [M]',
+            'effect':'',
+            'strength':['','','','','']
+        },
+        {
+            'type':'AP',
+            'effect':'-',
+            'strength':['','','','','']
+        }
+        ]
+    },
+    74:{
+        'name':'3.5" naval gun',
+        'stats':[
+        {
+            'type':'HE [M]',
+            'effect':'',
+            'strength':['','','','','']
+        }
+        ]
+    },
+    75:{
+        'name':'105mmL16',
+        'stats':[
+        {
+            'type':'HE [M]',
+            'effect':'',
+            'strength':['','','','','']
+        }
+        ]
+    },
+    76:{
+        'name':'105mmL22',
+        'stats':[
+        {
+            'type':'HE [M]',
+            'effect':'',
+            'strength':['','','','','']
+        }
+        ]
+    },
+    77:{
+        'name':'4.5"',
+        'stats':[
+        {
+            'type':'HE [M]',
+            'effect':'',
+            'strength':['','','','','']
+        }
+        ]
+    },
+    78:{
+        'name':'4.7" naval gun',
+        'stats':[
+        {
+            'type':'HE [M]',
+            'effect':'',
+            'strength':['','','','','']
+        }
+        ]
+    },
+    79:{
+        'name':'5" naval gun',
+        'stats':[
+        {
+            'type':'HE [M]',
+            'effect':'',
+            'strength':['','','','','']
+        }
+        ]
+    },
+    80:{
+        'name':'5.5"',
+        'stats':[
+        {
+            'type':'HE [M]',
+            'effect':'',
+            'strength':['','','','','']
+        }
+        ]
+    },
+    81:{
+        'name':'6" naval gun',
+        'stats':[
+        {
+            'type':'HE [M]',
+            'effect':'',
+            'strength':['','','','','']
+        }
+        ]
+    },
+    82:{
+        'name':'155mmL13',
+        'stats':[
+        {
+            'type':'HE [M]',
+            'effect':'',
+            'strength':['','','','','']
+        }
+        ]
+    },
+    83:{
+        'name':'155mmL36',
+        'stats':[
+        {
+            'type':'HE [M]',
+            'effect':'',
+            'strength':['','','','','']
+        }
+        ]
+    },
+    84:{
+        'name':'155mmL45',
+        'stats':[
+        {
+            'type':'HE [M]',
+            'effect':'',
+            'strength':['','','','','']
+        }
+        ]
+    },
+    85:{
+        'name':'7.2"',
+        'stats':[
+        {
+            'type':'HE [H]',
+            'effect':'',
+            'strength':['','','','','']
+        }
+        ]
+    },
+    86:{
+        'name':'8" (230mmL50)',
+        'stats':[
+        {
+            'type':'HE [H]',
+            'effect':'',
+            'strength':['','','','','']
+        }
+        ]
+    },
+    87:{
+        'name':'210mmL31',
+        'stats':[
+        {
+            'type':'HE [H]',
+            'effect':'',
+            'strength':['','','','','']
+        }
+        ]
+    },
+    88:{
+        'name':'240mmL30',
+        'stats':[
+        {
+            'type':'HE [H]',
+            'effect':'',
+            'strength':['','','','','']
+        }
+        ]
+    },
+    89:{
+        'name':'280mm Petard',
+        'stats':[
+        {
+            'type':'HE [H]',
+            'effect':'',
+            'strength':['','','','','']
+        }
+        ]
+    },
+    90:{
+        'name':'14" naval gun',
+        'stats':[
+        {
+            'type':'HE [H]',
+            'effect':'',
+            'strength':['','','','','']
+        }
+        ]
+    },
+    91:{
+        'name':'PIAT',
+        'stats':[
+        {
+            'type':'AP',
+            'effect':'-',
+            'strength':['']
+        }
+        ]
+    },
+    92:{
+        'name':'Bazooka',
+        'stats':[
+        {
+            'type':'HE [VL]',
+            'effect':'',
+            'strength':['']
+        },
+        {
+            'type':'AP',
+            'effect':'-',
+            'strength':['']
+        }
+        ]
+    },
+    93:{
+        'name':'60lb Rocket',
+        'stats':[
+        {
+            'type':'HE',
+            'effect':'',
+            'strength':['','','']
+        }
+        ]
+    },
+    94:{
+        'name':'5" Rocket',
+        'stats':[
+        {
+            'type':'HE',
+            'effect':'',
+            'strength':['','','']
+        }
+        ]
+    },
+    95:{
+        'name':'37mmL57',
+        'stats':[
+        {
+            'type':'HE',
+            'effect':'-',
+            'strength':['','','','','','']
+        },
+        {
+            'type':'AP',
+            'effect':'-',
+            'strength':['','','','','']
+        }
+        ]
+    },
+    96:{
+        'name':'25mmL73',
+        'stats':[
+        {
+            'type':'HE',
+            'effect':'-',
+            'strength':['','','','','']
+        },
+        {
+            'type':'AP',
+            'effect':'-',
+            'strength':['','','','','']
+        }
+        ]
+    },
+    97:{
+        'name':'37mmL43 PaK36 (Stielgranate 41)',
+        'stats':[
+        {
+            'type':'HE [VL]',
+            'effect':'',
+            'strength':['','','','','']
+        },
+        {
+            'type':'AP',
+            'effect':'-',
+            'strength':['','','','','']
+        }
+        ]
+    },
+    98:{
+        'name':'42mmL55 (PaK41)',
+        'stats':[
+        {
+            'type':'HE [VL]',
+            'effect':'',
+            'strength':['','','','','']
+        },
+        {
+            'type':'AP',
+            'effect':'-',
+            'strength':['','','','','']
+        }
+        ]
+    },
+    99:{
+        'name':'75mmL11 (IG18)',
+        'stats':[
+        {
+            'type':'HE [L]',
+            'effect':'',
+            'strength':['','','','','']
+        }
+        ]
+    },
+    100:{
+        'name':'75mmL36 (PaK 97/38)',
+        'stats':[
+        {
+            'type':'HE [L]',
+            'effect':'',
+            'strength':['','','','','']
+        },
+        {
+            'type':'AP',
+            'effect':'-',
+            'strength':['','','','','','']
+        }
+        ]
+    },
+    101:{
+        'name':'100mmL19',
+        'stats':[
+        {
+            'type':'HE [M]',
+            'effect':'',
+            'strength':['','','','','']
+        }
+        ]
+    },
+    102:{
+        'name':'77mmL50',
+        'stats':[
+        {
+            'type':'HE [L]',
+            'effect':'',
+            'strength':['','','','','','']
+        },
+        {
+            'type':'AP',
+            'effect':'-',
+            'strength':['','','','','','']
+        }
+        ]
+    },
+    103:{
+        'name':'105mmL63 (FlaK39)',
+        'stats':[
+        {
+            'type':'HE [L]',
+            'effect':'',
+            'strength':['','','','','','']
+        },
+        {
+            'type':'AP',
+            'effect':'-',
+            'strength':['','','','','','']
+        }
+        ]
+    },
+    104:{
+        'name':'240mmL35',
+        'stats':[
+        {
+            'type':'HE [H]',
+            'effect':'',
+            'strength':['','','','','','']
+        }
+        ]
+    },
+    105:{
+        'name':'280mmL45',
+        'stats':[
+        {
+            'type':'HE [H]',
+            'effect':'',
+            'strength':['','','','','','']
+        }
+        ]
+    },
+    106:{
+        'name':'340mmL47',
+        'stats':[
+        {
+            'type':'HE [H]',
+            'effect':'',
+            'strength':['','','','','','']
+        }
+        ]
+    },
+    107:{
+        'name':'Panzerfaust',
+        'stats':[
+        {
+            'type':'AP',
+            'effect':'-',
+            'strength':['']
+        }
+        ]
+    },
+    108:{
+        'name':'Panzerschreck',
+        'stats':[
+        {
+            'type':'AP',
+            'effect':'-',
+            'strength':['']
+        }
+        ]
+    },
+    109:{
+        'name':'88mm \'Püppchen\'',
+        'stats':[
+        {
+            'type':'AP',
+            'effect':'-',
+            'strength':['']
+        }
+        ]
+    },
+    110:{
+        'name':'80mm rocket',
+        'stats':[
+        {
+            'type':'HE [L]',
+            'effect':'',
+            'strength':['','','','','']
+        }
+        ]
+    },
+    111:{
+        'name':'25mmL47',
+        'stats':[
+        {
+            'type':'HE [VL]',
+            'effect':'',
+            'strength':['','','','','']
+        },
+        {
+            'type':'AP',
+            'effect':'-',
+            'strength':['','','','','']
+        }
+        ]
+    },
+    112:{
+        'name':'37mmL21',
+        'stats':[
+        {
+            'type':'HE [VL]',
+            'effect':'',
+            'strength':['','','','','']
+        },
+        {
+            'type':'AP',
+            'effect':'-',
+            'strength':['','','','','']
+        }
+        ]
+    },
+    113:{
+        'name':'47mmL32',
+        'stats':[
+        {
+            'type':'HE [VL]',
+            'effect':'',
+            'strength':['','','','','']
+        },
+        {
+            'type':'AP',
+            'effect':'-',
+            'strength':['','','','','']
+        }
+        ]
+    },
+    114:{
+        'name':'47mmL43',
+        'stats':[
+        {
+            'type':'HE [VL]',
+            'effect':'',
+            'strength':['','','','','']
+        },
+        {
+            'type':'AP',
+            'effect':'-',
+            'strength':['','','','','']
+        }
+        ]
+    },
+    115:{
+        'name':'122mmL43',
+        'stats':[
+        {
+            'type':'HE [M]',
+            'effect':'',
+            'strength':['','','','','']
+        },
+        {
+            'type':'AP',
+            'effect':'-',
+            'strength':['','','','','']
+        }
+        ]
+    },
+    116:{
+        'name':'100mmL54',
+        'stats':[
+        {
+            'type':'HE [M]',
+            'effect':'',
+            'strength':['','','','','','']
+        },
+        {
+            'type':'AP',
+            'effect':'-',
+            'strength':['','','','','','']
+        }
+        ]
+    },
+    117:{
+        'name':'100mmL60',
+        'stats':[
+        {
+            'type':'HE [M]',
+            'effect':'',
+            'strength':['','','','','','']
+        },
+        {
+            'type':'AP',
+            'effect':'-',
+            'strength':['','','','','','']
+        }
+        ]
+    },
+    118:{
+        'name':'128mmL55 (PaK44)',
+        'stats':[
+        {
+            'type':'HE [M]',
+            'effect':'',
+            'strength':['','','','','','']
+        },
+        {
+            'type':'AP',
+            'effect':'-',
+            'strength':['','','','','','']
+        }
+        ]
+    },
+    119:{
+        'name':'380mmL5',
+        'stats':[
+        {
+            'type':'HE [H]',
+            'effect':'',
+            'strength':['','','','','']
+        }
+        ]
+    },
+    120:{
+        'name':'15mm \'Drilling\'',
+        'stats':[
+        {
+            'type':'HE',
+            'effect':'-',
+            'strength':['','','','','','']
+        },
+        {
+            'type':'AP',
+            'effect':'-',
+            'strength':['','','','','']
+        }
+        ]
+    },
+    121:{
+        'name':'90mmL53',
+        'stats':[
+        {
+            'type':'HE [M]',
+            'effect':'-',
+            'strength':['','','','','','']
+        },
+        {
+            'type':'AP',
+            'effect':'-',
+            'strength':['','','','','','']
+        }
+        ]
+    },
+    122:{
+        'name':'37mmL40',
+        'stats':[
+        {
+            'type':'HE [VL]',
+            'effect':'-',
+            'strength':['','','','','']
+        },
+        {
+            'type':'AP',
+            'effect':'-',
+            'strength':['','','','','']
+        }
+        ]
+    },
+    123:{
+        'name':'37mmL46',
+        'stats':[
+        {
+            'type':'HE [VL]',
+            'effect':'-',
+            'strength':['','','','','']
+        },
+        {
+            'type':'AP',
+            'effect':'-',
+            'strength':['','','','','']
+        }
+        ]
+    },
+    124:{
+        'name':'3,7cm KPÚV vz. 34',
+        'stats':[
+        {
+            'type':'HE [VL]',
+            'effect':'-',
+            'strength':['','','','','']
+        },
+        {
+            'type':'AP',
+            'effect':'-',
+            'strength':['','','','','']
+        }
+        ]
+    },
+    125:{
+        'name':'75mmL26',
+        'stats':[
+        {
+            'type':'HE [L]',
+            'effect':'',
+            'strength':['','','','','','']
+        },
+        {
+            'type':'AP',
+            'effect':'-',
+            'strength':['','','','','']
+        }
+        ]
+    },
+    126:{
+        'name':'65mmL17',
+        'stats':[
+        {
+            'type':'HE [L]',
+            'effect':'',
+            'strength':['','','','','','']
+        }
+        ]
+    },
+    127:{
+        'name':'75mmL30',
+        'stats':[
+        {
+            'type':'HE [L]',
+            'effect':'',
+            'strength':['','','','','']
+        }
+        ]
+    },
+    128:{
+        'name':'100mmL19 Howitzer',
+        'stats':[
+        {
+            'type':'HE [M]',
+            'effect':'',
+            'strength':['','','','','']
+        }
+        ]
+    },
+    129:{
+        'name':'20mmL65 Breda Cannon',
+        'stats':[
+        {
+            'type':'AP',
+            'effect':'',
+            'strength':['','','','','']
+        }
+        ]
+    },
+    130:{
+        'name':'47mmL32',
+        'stats':[
+            {
+                'type':'HE [VL]',
+                'effect':'-',
+                'strength':['','','','','']
+            },
+            {
+                'type':'AP',
+                'effect':'-',
+                'strength':['','','','','']
+            }
+            ]
+    },
+    131:{
+        'name':'Solothurn AT Rifle',
+        'stats':[
+        {
+            'type':'AP',
+            'effect':'',
+            'strength':['','']
+        }
+        ]
+    },
+    132:{
+        'name':'75mmL46',
+        'stats':[
+        {
+            'type':'HE [L]',
+            'effect':'-',
+            'strength':['','','','','']
+        }
+        ]
+    },
+    133:{
+        'name':'37mmL40',
+        'stats':[
+            {
+                'type':'HE [VL]',
+                'effect':'-',
+                'strength':['','','','','']
+            },
+            {
+                'type':'AP',
+                'effect':'-',
+                'strength':['','','','','']
+            }
+        ]
+    },
+    134:{
+        'name':'100mmL19',
+        'stats':[
+        {
+            'type':'HE [M]',
+            'effect':'-',
+            'strength':['','','','','']
+        }
+        ]
+    },
+    135:{
+        'name':'149mmL39',
+        'stats':[
+        {
+            'type':'HE [M]',
+            'effect':'-',
+            'strength':['','','','','']
+        }
+        ]
+    },
+    136:{
+        'name':'90mmL53',
+        'stats':[
+            {
+                'type':'HE [M]',
+                'effect':'-',
+                'strength':['','','','','']
+            },
+            {
+                'type':'AP',
+                'effect':'-',
+                'strength':['','','','','']
+            }
+        ]
+    },
+    137:{
+        'name':'Boys AT-rifle',
+        'stats':[
+            {
+                'type':'AP',
+                'effect':'-',
+                'strength':['2','1']
+            }
+        ]
+    },
+    138:{
+        'name':'6" Howitzer',
+        'stats':[
+        {
+            'type':'HE [M]',
+            'effect':'',
+            'strength':['','','','','']
+        }
+        ]
+    },
+    139:{
+        'name':'15mm Besa',
+        'stats':[
+        {
+            'type':'AP',
+            'effect':'-',
+            'strength':['1','1','1','1','1']
+        }
+        ]
+    },
+    140:{
+        'name':'3" Howitzer',
+        'stats':[
+        {
+            'type':'HE [M]',
+            'effect':'',
+            'strength':['','','','','']
+        }
+        ]
+    },
+    141:{
+        'name':'18pdr',
+        'stats':[
+        {
+            'type':'HE [M]',
+            'effect':'',
+            'strength':['','','','','']
+        },
+        {
+            'type':'AP',
+            'effect':'-',
+            'strength':['','','','','']
+        }
+        ]
+    },
+    142:{
+        'name':'3.7" Howitzer',
+        'stats':[
+        {
+            'type':'HE [M]',
+            'effect':'',
+            'strength':['','','','','']
+        }
+        ]
+    },
+    143:{
+        'name':'75mmL28',
+        'stats':[
+        {
+            'type':'HE [L]',
+            'effect':'',
+            'strength':['','','','','']
+        },
+        {
+            'type':'AP',
+            'effect':'-',
+            'strength':['','','','','']
+        }
+        ]
+    },
+    144:{
+        'name':'AT-rifle',
+        'stats':[
+            {
+                'type':'AP',
+                'effect':'-',
+                'strength':['2','1']
+            }
+        ]
+    },
+    145:{
+        'name':'3.7" AA',
+        'stats':[
+        {
+            'type':'HE [L]',
+            'effect':'5/4+',
+            'strength':['4','4','4','4','4']
+        }
+        ]
+    },
+
+};
+
