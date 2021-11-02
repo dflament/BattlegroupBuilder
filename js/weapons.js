@@ -551,7 +551,7 @@ var weapons = {
         ]
     },
     45:{
-        'name':'76.2mmL54',
+        'name':'76.2mmL54 Zis3',
         'stats':[
         {
             'type':'HE [L]',
@@ -1765,6 +1765,20 @@ var weapons = {
         }
         ]
     },
-
+    146:{
+        'name':'45mmL60',
+        'stats':[
+        {
+            'type':'HE [VL]',
+            'effect':'',
+            'strength':['','','','','']
+        },
+        {
+            'type':'AP',
+            'effect':'-',
+            'strength':['','','','','']
+        }
+        ]
+    },
 };
 
