@@ -60500,6 +60500,7 @@ var forces = [
                 {
                     "name":"Germans Low on Fuel",
                     "br":0,
+                    "unique":true,
                     "cost":15
                 }
                 ]
