@@ -13,5 +13,5 @@ You will need a copy of the rulebook and one of the theatre supplements as this 
 
 **Changelog:**
 
-02/11/2021 - _Added Spring Awakening / Panzer Division Battlegroup_
+02/11/2021 - _Added Spring Awakening / Panzer Division Battlegroup_<br>
 02/11/2021 - _Added Spring Awakening / Russian Battlegroup_
