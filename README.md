@@ -11,3 +11,6 @@ The ruleset is written by Warwick Kinrade and published by Iron Fist Publishing 
 You will need a copy of the rulebook and one of the theatre supplements as this army builder doesn't show any stats or rules.
 
 
+**Changelog:**
+
+02/11/2021 - _Added Spring Awakening / Russian Battlegroup_
