@@ -1780,5 +1780,55 @@ var weapons = {
         }
         ]
     },
+    147:{
+        'name':'149mmL24',
+        'stats':[
+        {
+            'type':'HE [M]',
+            'effect':'7/3+',
+            'strength':['5','5','5','5','5']
+        }
+        ]
+    },
+    148:{
+        'name':'80mmL45',
+        'stats':[
+            {
+                'type':'HE [L]',
+                'effect':'5/4+',
+                'strength':['3','3','3','3','3']
+            },
+            {
+                'type':'AP',
+                'effect':'-',
+                'strength':['7','7','6','5','4']
+            }
+        ]
+    },
+    149:{
+        'name':'80mmL30',
+        'stats':[
+            {
+                'type':'HE [L]',
+                'effect':'4/4+',
+                'strength':['2','2','2','2','2']
+            }
+        ]
+    },
+    150:{
+        'name':'75mmL25',
+        'stats':[
+            {
+                'type':'HE [L]',
+                'effect':'4/4+',
+                'strength':['2','2','2','2','2']
+            },
+            {
+                'type':'AP',
+                'effect':'-',
+                'strength':['4','4','3','2','1']
+            }
+        ]
+    }
 };
 

@@ -435,7 +435,7 @@ var vehicles = [
 },
 {
     'id':57,
-    'name':'Krupp Protze',
+    'name':'Krüpp Protze',
     'hits':true,
     'capacity':8
 },
@@ -1810,7 +1810,7 @@ var vehicles = [
 },
 {
     'id':249,
-    'name':'Hetzer',
+    'name':'Hetzer 38(t)',
     'armour':true,
     'weapons':15,
     'mg':true,
@@ -2591,6 +2591,46 @@ var vehicles = [
     'id':352,
     'name':'Panzer I Ambulance',
     'armour':true
+},
+{
+    'id':353,
+    'name':'Toldi II',
+    'armour':true,
+    'weapons':000,
+    'mg':true,
+    'ammo':true
+},
+{
+    'id':354,
+    'name':'40M Turán I',
+    'armour':true,
+    'weapons':000,
+    'mg':true,
+    'ammo':true
+},
+{
+    'id':355,
+    'name':'41M Turán II',
+    'armour':true,
+    'weapons':000,
+    'mg':true,
+    'ammo':true
+},
+{
+    'id':356,
+    'name':'43M Zrinyi II',
+    'armour':true,
+    'weapons':000,
+    'mg':true,
+    'ammo':true
+},
+{
+    'id':357,
+    'name':'40M Nimród',
+    'armour':true,
+    'weapons':000,
+    'mg':true,
+    'ammo':true
 },
 
 
