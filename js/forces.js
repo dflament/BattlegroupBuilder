@@ -66758,7 +66758,6 @@ var forces = [
                         }
                     ]
                 },
-                ,
                 {
                     "name":"PaK40 Anti-tank Gun",
                     "cost":40,
