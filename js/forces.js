@@ -65873,7 +65873,7 @@ var forces = [
     },
     {
         "id":57,
-        "name":"Hungarian Battlegroup (WIP)",
+        "name":"Hungarian Battlegroup",
         "group":"Battlegroup Spring Awakening",
         "infantry":[
             [[1,0],[0,1]],
