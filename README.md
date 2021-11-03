@@ -11,7 +11,7 @@ The ruleset is written by Warwick Kinrade and published by Iron Fist Publishing 
 You will need a copy of the rulebook and one of the theatre supplements as this army builder doesn't show any stats or rules.
 
 
-**Changelog:**
+**Changelog:**<br>
 03/11/2021 - _Added Spring Awakening / Hungarian Battlegroup_<br>
 03/11/2021 - _Battlegroup Wacht Am Rhein / Kampfgruppe Peiper_<br>
 02/11/2021 - _Added Spring Awakening / Panzer Division Battlegroup_<br>
