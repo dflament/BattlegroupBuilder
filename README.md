@@ -13,6 +13,7 @@ You will need a copy of the rulebook and one of the theatre supplements as this 
 
 **Changelog:**
 
+03/11/2021 - _Added Spring Awakening / Hungarian Battlegroup_<br>
 03/11/2021 - _Battlegroup Wacht Am Rhein / Kampfgruppe Peiper_<br>
 02/11/2021 - _Added Spring Awakening / Panzer Division Battlegroup_<br>
 02/11/2021 - _Added Spring Awakening / Russian Battlegroup_
