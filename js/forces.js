@@ -65873,7 +65873,7 @@ var forces = [
     },
     {
         "id":57,
-        "name":"Hungarian Battlegroup",
+        "name":"Hungarian Battlegroup (WIP)",
         "group":"Battlegroup Spring Awakening",
         "infantry":[
             [[1,0],[0,1]],
@@ -66346,12 +66346,6 @@ var forces = [
                         "br":1
                     },
                     {
-                        "name":"Machine Gun Pillbox",
-                        "cost":54,
-                        "br":1,
-                        "restricted":true
-                    },
-                    {
                         "name":"Mortar Pit",
                         "cost":32,
                         "br":1
@@ -66377,20 +66371,19 @@ var forces = [
                         "br":0
                     },
                     {
+                        "name":"Barbed Wire",
+                        "cost":10,
+                        "br":0
+                    },
+                    {
                         "name":"AT Gun Dug-out",
                         "cost":20,
                         "br":0
                     },
                     {
-                        "name":"AT Gun Bunker",
-                        "cost":30,
-                        "br":0,
-                        "restricted":true
-                    },
-                    {
-                        "name":"Minefield",
-                        "cost":20,
-                        "br":0
+                        "name":"Artillery Observation Point",
+                        "cost":26,
+                        "br":1
                     },
                     {
                         "name":"Command Bunker",
@@ -66400,19 +66393,15 @@ var forces = [
                         "restricted":true,
                         "unique":true
                     },
-                    {
-                        "name":"Artillery Observation Point",
-                        "cost":26,
-                        "br":1
-                    },
+
                     {
                         "name":"Booby Trapped Building",
                         "cost":25,
                         "br":0
                     },
                     {
-                        "name":"Barbed Wire",
-                        "cost":10,
+                        "name":"Minefield",
+                        "cost":20,
                         "br":0
                     },
                     {
@@ -66427,9 +66416,10 @@ var forces = [
                         "restricted":true
                     },
                     {
-                        "name":"Off-table 88 Anti-Tank shot",
+                        "name":"Off-table 47mmL43 Anti-Tank shot",
                         "cost":5,
-                        "br":0
+                        "br":0,
+                        "w":114
                     }
                 ]
             },
