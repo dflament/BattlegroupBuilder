@@ -66432,6 +66432,7 @@ var forces = [
                     "name":"Sniper",
                     "cost":10,
                     "br":1,
+                    "scout":1,
                     "options":[
                         {
                             "name":"Composition",
@@ -66443,71 +66444,128 @@ var forces = [
                     ]
                 },
                 {
-                    "name":"Motorcycle Reconnaissance Patrol",
-                    "cost":18,
-                    "br":1
-                },
-                {
-                    "name":"Aerial Reconnaissance",
-                    "cost":50,
-                    "br":2,
-                    "unique":true,
-                    "options":[
-                        {
-                            "name":"Composition",
-                            "choices":[
-                                {"text":"Hs-126"}
-                            ]
-                        }
-                    ]
-                },
-                {
                     "name":"Armoured Car",
-                    "cost":20,
+                    "cost":21,
                     "br":1,
-                    "v":32,
+                    "v":358,
                     "options":[
                         {
                             "name":"Composition",
                             "choices":[
-                                {"text":"SdKfz 222"}
+                                {"text":"39M Csaba"}
                             ]
                         }
                     ]
                 },
                 {
-                    "name":"Fusilier Foot Patrol",
-                    "cost":36,
-                    "br":3,
+                    "name":"Recce Cmd Armoured Car",
+                    "cost":23,
+                    "br":2,
+                    "officer":true,
+                    "scout":1,
+                    "unique":true,
+                    "v":359,
                     "options":[
                         {
-                            "name":"MG",
+                            "name":"Composition",
                             "choices":[
-                                {"text":"Bipod MG34"},
-                                {"text":"Bipod MG42","cost":4}
+                                {"text":"40M Csaba"}
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name":"Reconnaissance Tank",
+                    "cost":27,
+                    "br":2,
+                    "scout":1,
+                    "v":353,
+                    "options":[
+                        {
+                            "name":"Composition",
+                            "choices":[
+                                {"text":"Toldi II"}
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name":"Reconnaissance Tank",
+                    "cost":37,
+                    "br":3,
+                    "scout":1,
+                    "officer":true,
+                    "unique":true,
+                    "v":353,
+                    "options":[
+                        {
+                            "name":"Composition",
+                            "choices":[
+                                {"text":"Toldi II"}
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name":"Motorised Infantry Patrol",
+                    "cost":47,
+                    "br":2,
+                    "scout":1,
+                    "v":91,
+                    "w":107
+                },
+                {
+                    "name":"Motorcycle Reconnaissance Patrol",
+                    "cost":19,
+                    "scout":1,
+                    "br":1,
+                    "options":[
+                        {
+                            "name":"Weapon",
+                            "choices":[
+                                {"text":"Panzerfaust","w":107}
                             ]
                         },
                         {
-                            "name":"AT grenades",
+                            "name":"Transport",
                             "choices":[
-                                {"text":"None"},
-                                {"text":"Anti-tank grenades","cost":5}
+                                {"text":"Motorcycle and sidecar","v":51}
                             ]
                         }
                     ]
                 },
                 {
-                    "name":"Recon Platoon Command",
-                    "cost":35,
+                    "name":"Bicycle Recce Patrol",
+                    "cost":16,
+                    "br":1,
+                    "scout":1
+                },
+                {
+                    "name":"Anti-tank Gun",
+                    "cost":29,
+                    "scout":1,
                     "br":2,
                     "unique":true,
-                    "officer":true,
-                    "v":32,
                     "options":[
                         {
-                            "name":"Transport",
+                            "name":"Gun type",
                             "choices":[
-                                {"text":"SdKfz 222"}
+                                {"text":"47mmL34","w":114},
+                                {"text":"75mmL48 PaK38","cost":16,"w":15},
+                            ]
+                        },
+                        {
+                            "name":"Loader team",
+                            "choices":[
+                                {"text":"None"},
+                                {"text":"3-man loader team","cost":10}
+                            ]
+                        },
+                        {
+                            "name":"Tow",
+                            "choices":[
+                                {"text":"Krüpp Protze","v":57},
+                                {"text":"SdKfz 10 Half-track","cost":6,"v":62}
                             ]
                         }
                     ]
@@ -66520,15 +66578,15 @@ var forces = [
             "requires":true,
             "entries":[
                 {
-                    "name":"Recovery Vehicle",
-                    "cost":18,
-                    "br":1,
-                    "v":67,
+                    "name":"Repair Vehicle",
+                    "cost":12,
+                    "br":2,
+                    "v":91,
                     "options":[
                         {
                             "name":"Composition",
                             "choices":[
-                                {"text":"SdKfz 9 'Famo'"}
+                                {"text":"Medium truck"}
                             ]
                         }
                     ]
@@ -66542,13 +66600,13 @@ var forces = [
                         {
                             "name":"Composition",
                             "choices":[
-                                {"text":"Heavy Truck & 6 men"}
+                                {"text":"Heavy Truck"}
                             ]
                         }
                     ]
                 },
                 {
-                    "name":"Heavy Bridging Unit",
+                    "name":"Engineer Squad",
                     "cost":36,
                     "br":3,
                     "v":61,

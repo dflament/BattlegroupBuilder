@@ -195,7 +195,7 @@ var weapons = {
         ]
     },
     15:{
-        'name':'75mmL48',
+        'name':'75mmL48 (PaK40)',
         'stats':[
         {
             'type':'HE [L]',

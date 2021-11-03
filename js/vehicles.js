@@ -2632,6 +2632,20 @@ var vehicles = [
     'mg':true,
     'ammo':true
 },
+{
+    'id':358,
+    'name':'39M Csaba',
+    'armour':true,
+    'weapons':[4],
+    'ammo':true
+},
+{
+    'id':359,
+    'name':'40M Csaba',
+    'armour':true,
+    'weapons':[4],
+    'ammo':true
+},
 
 
 // greg to-do, landing craft
