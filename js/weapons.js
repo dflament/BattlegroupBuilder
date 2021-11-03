@@ -1306,7 +1306,7 @@ var weapons = {
         {
             'type':'AP',
             'effect':'-',
-            'strength':['']
+            'strength':['9']
         }
         ]
     },
@@ -1829,6 +1829,56 @@ var weapons = {
                 'strength':['4','4','3','2','1']
             }
         ]
+    },
+    151:{
+        'name':'44M Buzaganyveto',
+        'stats':[
+            {
+                'type':'HE [L]',
+                'effect':'6/3+',
+                'strength':['6','6','6']
+            },
+            {
+                'type':'AP',
+                'effect':'-',
+                'strength':['11','11','10']
+            }
+        ]
+    },
+    152:{
+        'name':'40mmL51',
+        'stats':[
+            {
+                'type':'HE [VL]',
+                'effect':'2/5+',
+                'strength':['1','1','1','1','1']
+            },
+            {
+                'type':'AP',
+                'effect':'-',
+                'strength':['4','4','3','2','1']
+            }
+        ]
+    },
+    153:{
+        'name':'105mmL20',
+        'stats':[
+            {
+                'type':'HE [M]',
+                'effect':'5/3+',
+                'strength':['4','4','4','4','4']
+            }
+        ]
+    },
+    154:{
+        'name':'305mm',
+        'stats':[
+            {
+                'type':'HE [M]',
+                'effect':'11/2+',
+                'strength':['10','10','10','10','10','10']
+            }
+        ]
     }
-};
+}
 

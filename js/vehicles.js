@@ -2596,7 +2596,7 @@ var vehicles = [
     'id':353,
     'name':'Toldi II',
     'armour':true,
-    'weapons':000,
+    'weapons':[4],
     'mg':true,
     'ammo':true
 },
@@ -2604,7 +2604,7 @@ var vehicles = [
     'id':354,
     'name':'40M Turán I',
     'armour':true,
-    'weapons':000,
+    'weapons':[152],
     'mg':true,
     'ammo':true
 },
@@ -2612,7 +2612,7 @@ var vehicles = [
     'id':355,
     'name':'41M Turán II',
     'armour':true,
-    'weapons':000,
+    'weapons':[150],
     'mg':true,
     'ammo':true
 },
@@ -2620,7 +2620,7 @@ var vehicles = [
     'id':356,
     'name':'43M Zrinyi II',
     'armour':true,
-    'weapons':000,
+    'weapons':[153],
     'mg':true,
     'ammo':true
 },
@@ -2628,7 +2628,7 @@ var vehicles = [
     'id':357,
     'name':'40M Nimród',
     'armour':true,
-    'weapons':000,
+    'weapons':[63],
     'mg':true,
     'ammo':true
 },
@@ -2643,8 +2643,7 @@ var vehicles = [
     'id':359,
     'name':'40M Csaba',
     'armour':true,
-    'weapons':[4],
-    'ammo':true
+    'mg':true
 },
 
 
