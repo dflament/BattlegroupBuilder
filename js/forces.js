@@ -66492,7 +66492,7 @@ var forces = [
                     ]
                 },
                 {
-                    "name":"Reconnaissance Tank",
+                    "name":"Recce Command Tank",
                     "cost":37,
                     "br":3,
                     "scout":1,
