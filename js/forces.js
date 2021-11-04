@@ -19550,6 +19550,7 @@ var forces = [
                                 {"text":"3 men"},
                                 {"text":"3 men & Jeep","cost":2,"v":163},
                                 {"text":"3 men & White Scout Car","cost":10,"v":84},
+                                {"text":"3 men & M5 Halftrack","cost":8,"v":83},
                                 {"text":"Dingo Scout car","v":136},
                                 {"text":"Humber Scout car","v":134},
                                 {"text":"M4A4 Sherman","cost":42,"v":101},
@@ -19595,7 +19596,8 @@ var forces = [
                             "name":"Composition",
                             "choices":[
                                 {"text":"3 men & Radio Medium Truck","v":91},
-                                {"text":"3 men & M5 Radio Halftrack","cost":2,"v":83}
+                                {"text":"3 men & M5 Radio Halftrack","cost":4,"v":83},
+                                {"text":"Dorchester ACV","cost":2,"v":159},
                             ]
                         }
                     ]
@@ -19603,7 +19605,7 @@ var forces = [
                 {
                     "name":"Comms Relay Team",
                     "br":0,
-                    "cost":14
+                    "cost":13
                 },
                 {
                     "name":"Motorcycle Dispatch Rider",
@@ -20183,8 +20185,8 @@ var forces = [
                                         "name":"Extras",
                                         "choices":[
                                             {"text":"None"},
-                                            {"text":"3-man loader team","cost":2},
-                                            {"text":"Jeep Mount","cost":10,"v":163,"unique":true} //greg how to do unique???
+                                            {"text":"3-man loader team","cost":10},
+                                            {"text":"Jeep Mount","cost":2,"v":163,"unique":true} //greg how to do unique???
                                         ]
                                     }
                                 ]
@@ -20208,7 +20210,7 @@ var forces = [
                                         "choices":[
                                             {"text":"None"},
                                             {"text":"3-man loader team","cost":10},
-                                            {"text":"Jeep Mount","cost":10,"v":163,"unique":true} //greg how to do unique???
+                                            {"text":"Jeep Mount","cost":2,"v":163,"unique":true} //greg how to do unique???
                                         ]
                                     }
                                 ]
@@ -20459,7 +20461,7 @@ var forces = [
                         ]
                     },
                     {
-                        "name":"Forward Observer Team",
+                        "name":"Armoured Fwd Observer Team",
                         "cost":50,
                         "br":2,
                         "options":[
