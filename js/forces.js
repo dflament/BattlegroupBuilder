@@ -66449,6 +66449,7 @@ var forces = [
                     "name":"Armoured Car",
                     "cost":21,
                     "br":1,
+                    "scout":1,
                     "v":358,
                     "options":[
                         {
